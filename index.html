@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude Pulse — Anthropic launch tracker</title>
+  <meta name="description" content="Live tracker for Anthropic & Claude launches, upcoming features, and model comparisons." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top">
+        <span class="leaf" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg>
+        </span>
+        <span>Claude Pulse</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#whats-new">What's New</a>
+        <a href="#upcoming">Upcoming</a>
+        <a href="#compare">Compare</a>
+        <a href="#charts">Benchmarks</a>
+      </nav>
+      <span class="updated" id="lastUpdated">—</span>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <p class="eyebrow"><span class="dot"></span> Live launch tracker</p>
+      <h1 class="hero-title" id="heroName">Loading the latest…</h1>
+      <p class="hero-sub" id="heroHeadline"></p>
+      <div class="hero-meta" id="heroMeta"></div>
+      <ul class="hero-highlights" id="heroHighlights"></ul>
+      <div class="hero-actions">
+        <a class="btn btn-primary" id="heroLink" href="#" target="_blank" rel="noopener">Read the announcement →</a>
+        <a class="btn btn-ghost" href="#compare">See how it compares</a>
+      </div>
+    </section>
+
+    <!-- WHAT'S NEW -->
+    <section id="whats-new" class="section">
+      <div class="section-head">
+        <h2>What's New</h2>
+        <p>Chronological feed of Anthropic & Claude releases.</p>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <!-- UPCOMING -->
+    <section id="upcoming" class="section">
+      <div class="section-head">
+        <h2>Upcoming Launches</h2>
+        <p>Announced and speculative. Speculative items are clearly tagged.</p>
+      </div>
+      <div class="cards" id="upcoming-cards"></div>
+    </section>
+
+    <!-- COMPARE -->
+    <section id="compare" class="section">
+      <div class="section-head">
+        <h2>Model Comparison</h2>
+        <p>Claude vs the field — context, pricing, and headline benchmarks.</p>
+      </div>
+      <div class="table-wrap">
+        <table class="compare" id="compareTable">
+          <thead>
+            <tr>
+              <th>Model</th><th>Context</th><th>Input $/M</th><th>Output $/M</th>
+              <th>SWE-bench Pro</th><th>Reasoning</th><th>Speed</th>
+            </tr>
+          </thead>
+          <tbody id="compareBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CHARTS -->
+    <section id="charts" class="section">
+      <div class="section-head">
+        <h2>Benchmark Stats</h2>
+        <p id="benchNote"></p>
+      </div>
+      <div class="chart-tabs" id="chartTabs"></div>
+      <div class="chart" id="chart"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <strong>Claude Pulse</strong>
+        <p>Built to track Anthropic launches. Figures approximate, from public sources.</p>
+      </div>
+      <div class="sources" id="sources"></div>
+    </div>
+    <p class="disclaimer">Not affiliated with Anthropic. Data refreshed via <code>scripts/fetch-updates.mjs</code>.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
