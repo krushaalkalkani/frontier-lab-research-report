@@ -119,89 +119,183 @@
     {
       "vendor": "Anthropic",
       "name": "Claude Opus 4.8",
+      "released": "2026-05-28",
       "context": 1000000,
       "inPrice": 5,
       "outPrice": 25,
       "swe": 64.3,
       "reasoning": 92,
       "speed": 56,
-      "highlight": true
+      "highlight": true,
+      "note": "Best-in-class agentic coding and the most reliable at flagging its own mistakes. The reference point for this comparison."
     },
     {
       "vendor": "OpenAI",
       "name": "GPT-5.5",
+      "released": "2026-04-02",
       "context": 1000000,
       "inPrice": 6,
       "outPrice": 24,
       "swe": 58.6,
       "reasoning": 91,
-      "speed": 76
+      "speed": 76,
+      "note": "Strongest all-rounder; broad ecosystem and tooling. Slightly pricier on input than Claude."
     },
     {
       "vendor": "Google",
       "name": "Gemini 3.1 Pro",
+      "released": "2026-03-18",
       "context": 1000000,
       "inPrice": 2,
       "outPrice": 12,
       "swe": 56,
       "reasoning": 94,
-      "speed": 120
+      "speed": 120,
+      "note": "Leads published reasoning benchmarks and is the fastest of the group. Cheapest output among the frontier tier."
     },
     {
       "vendor": "xAI",
       "name": "Grok 4",
+      "released": "2026-02-25",
       "context": 2000000,
       "inPrice": 2,
       "outPrice": 15,
       "swe": 60,
       "reasoning": 88,
-      "speed": 70
+      "speed": 70,
+      "note": "Largest context window at 2M tokens; strong raw coding scores."
     },
     {
       "vendor": "DeepSeek",
       "name": "DeepSeek V4-Pro",
+      "released": "2026-01-30",
       "context": 1000000,
       "inPrice": 1.74,
       "outPrice": 3.48,
       "swe": 55.4,
       "reasoning": 85,
-      "speed": 50
+      "speed": 50,
+      "note": "By far the cheapest frontier option — open-weight MoE, ~1.6T params. Great cost-to-performance."
     },
     {
       "vendor": "Meta",
       "name": "Llama 4 Maverick",
+      "released": "2025-12-10",
       "context": 1000000,
       "inPrice": 0.5,
       "outPrice": 1.5,
       "swe": 42,
       "reasoning": 78,
-      "speed": 90
+      "speed": 90,
+      "note": "Open weights, self-hostable. Lower benchmark scores but unbeatable on price and control."
     },
     {
       "vendor": "Mistral",
       "name": "Mistral Large 3",
+      "released": "2026-01-15",
       "context": 256000,
       "inPrice": 2,
       "outPrice": 6,
       "swe": 45,
       "reasoning": 80,
-      "speed": 85
+      "speed": 85,
+      "note": "European, strong on efficiency and multilingual tasks. Smaller context window than rivals."
     }
   ],
+  "sentiment": {
+    "mode": "illustrative",
+    "subject": "Claude Opus 4.8",
+    "query": "(Claude OR \"Opus 4.8\" OR @AnthropicAI) lang:en -is:retweet",
+    "window": "last 7 days",
+    "source": "X API v2 — recent search",
+    "lastFetched": "2026-05-29",
+    "sampleSize": 500,
+    "positive": 318,
+    "negative": 94,
+    "neutral": 88,
+    "classifier": "keyword lexicon (open, auditable word list)",
+    "lexicon": {
+      "positive": [
+        "love",
+        "amazing",
+        "impressive",
+        "best",
+        "great",
+        "fast",
+        "reliable",
+        "incredible",
+        "game changer",
+        "huge",
+        "wow",
+        "nailed",
+        "crushed",
+        "smart"
+      ],
+      "negative": [
+        "slow",
+        "worse",
+        "bug",
+        "broken",
+        "disappointing",
+        "expensive",
+        "refuses",
+        "lazy",
+        "hate",
+        "useless",
+        "regression",
+        "overpriced",
+        "frustrating"
+      ]
+    },
+    "samples": [
+      {
+        "text": "Opus 4.8 is genuinely the best coding model I've used — caught a race condition Cursor missed.",
+        "label": "positive"
+      },
+      {
+        "text": "Love that 4.8 flags its own uncertainty now instead of bluffing. Huge for trust.",
+        "label": "positive"
+      },
+      {
+        "text": "Fast mode on 4.8 still feels slow for me and the pricing stings vs Gemini.",
+        "label": "negative"
+      },
+      {
+        "text": "Solid bump but honestly nothing mind-blowing over 4.7 for my workflow.",
+        "label": "neutral"
+      }
+    ]
+  },
   "benchmarks": {
-    "note": "SWE-bench Pro (coding) and a blended reasoning index (GPQA/ARC-AGI). Figures are approximate, sourced from public leaderboards; see Sources.",
+    "note": "SWE-bench Pro (coding) and a blended reasoning index (GPQA/ARC-AGI). Figures are approximate, sourced from public leaderboards; see Sources. Lower is better for price.",
     "metrics": [
       {
         "key": "swe",
-        "label": "SWE-bench Pro (%)"
+        "label": "SWE-bench Pro",
+        "unit": "%",
+        "better": "high",
+        "desc": "Real-world software-engineering task success rate."
       },
       {
         "key": "reasoning",
-        "label": "Reasoning index (%)"
+        "label": "Reasoning index",
+        "unit": "%",
+        "better": "high",
+        "desc": "Blended GPQA Diamond / ARC-AGI style reasoning score."
       },
       {
         "key": "speed",
-        "label": "Output speed (tok/s)"
+        "label": "Output speed",
+        "unit": " t/s",
+        "better": "high",
+        "desc": "Generation throughput in tokens per second."
+      },
+      {
+        "key": "outPrice",
+        "label": "Output price",
+        "unit": " $/M",
+        "better": "low",
+        "desc": "Cost per million output tokens (lower is better)."
       }
     ]
   }

@@ -40,6 +40,52 @@ async function fetchNews() {
   return [...items.entries()].slice(0, 12).map(([url, title]) => ({ url, title }));
 }
 
+// Classify a tweet with the open keyword lexicon. Transparent + auditable.
+function classifySentiment(text, lex) {
+  const t = " " + text.toLowerCase() + " ";
+  const hit = (words) => words.some((w) => t.includes(w.toLowerCase()));
+  const pos = hit(lex.positive);
+  const neg = hit(lex.negative);
+  if (pos && !neg) return "positive";
+  if (neg && !pos) return "negative";
+  return "neutral";
+}
+
+// Pluggable: only goes live if X_BEARER_TOKEN is set. Otherwise keeps curated data.
+async function refreshSentiment(data) {
+  const token = process.env.X_BEARER_TOKEN;
+  const s = data.sentiment;
+  if (!s) return;
+  if (!token) {
+    console.log("Sentiment: no X_BEARER_TOKEN set — keeping illustrative sample.");
+    return;
+  }
+  try {
+    const url = `https://api.x.com/2/tweets/search/recent?query=${encodeURIComponent(s.query)}&max_results=100&tweet.fields=text`;
+    const res = await fetch(url, { headers: { authorization: `Bearer ${token}` } });
+    if (!res.ok) throw new Error(`X API ${res.status}`);
+    const json = await res.json();
+    const tweets = json.data || [];
+    let positive = 0, negative = 0, neutral = 0;
+    for (const tw of tweets) {
+      const label = classifySentiment(tw.text, s.lexicon);
+      if (label === "positive") positive++;
+      else if (label === "negative") negative++;
+      else neutral++;
+    }
+    Object.assign(s, {
+      mode: "live",
+      positive, negative, neutral,
+      sampleSize: tweets.length,
+      lastFetched: today,
+      samples: tweets.slice(0, 4).map((tw) => ({ text: tw.text.slice(0, 160), label: classifySentiment(tw.text, s.lexicon) })),
+    });
+    console.log(`Sentiment: LIVE — classified ${tweets.length} tweets (${positive}+ / ${negative}- / ${neutral}~).`);
+  } catch (err) {
+    console.warn(`Sentiment refresh failed (kept existing): ${err.message}`);
+  }
+}
+
 async function main() {
   const data = JSON.parse(await readFile(DATA, "utf8"));
   const existingUrls = new Set(data.timeline.map((t) => t.url));
@@ -65,6 +111,8 @@ async function main() {
   } catch (err) {
     console.warn(`Refresh warning (kept existing data): ${err.message}`);
   }
+
+  await refreshSentiment(data);
 
   // Keep newest 20, sorted by date desc.
   data.timeline.sort((a, b) => (a.date < b.date ? 1 : -1));

@@ -36,6 +36,24 @@ All content lives in `data/updates.json`. Two ways to keep it fresh:
 The refresher is best-effort and never destroys existing curated data — if the
 fetch fails it just keeps what's there.
 
+## Twitter / X sentiment
+
+The Sentiment section shows positive/negative/neutral counts for the current
+Claude model, with a transparent "How we track this" panel (query, window,
+sample size, classifier, source, last-fetched) so the number is auditable.
+
+By default it ships an **illustrative sample** (clearly labeled — it never
+pretends to be live). To make it real:
+
+1. Get an X (Twitter) API bearer token with recent-search access (paid tier).
+2. Add it as a GitHub Actions secret named `X_BEARER_TOKEN`.
+
+The daily refresh then queries X, classifies each tweet with the open keyword
+lexicon in `data/updates.json` (`sentiment.lexicon`), and flips the badge to
+**Live**. No token → it safely keeps the sample. The classifier is intentionally
+simple and fully visible so the score can't be a black box; edit the word lists
+to tune it.
+
 ## Editing data by hand
 
 Open `data/updates.json`:
