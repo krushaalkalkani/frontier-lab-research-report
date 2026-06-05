@@ -20,6 +20,7 @@
         <span>Claude Pulse</span>
       </a>
       <nav class="nav-links">
+        <a href="#resources">Resources</a>
         <a href="#whats-new">What's New</a>
         <a href="#upcoming">Upcoming</a>
         <a href="#compare">Compare</a>
@@ -36,6 +37,18 @@
     </div>
   </header>
 
+  <div class="labs-bar">
+    <div class="labs-inner">
+      <span class="labs-label">AI Research Lab</span>
+      <span class="lab-chip soon" title="Cross-lab overview — coming soon">Dashboard<i>soon</i></span>
+      <span class="labs-divider"></span>
+      <span class="labs-label">Labs</span>
+      <span class="lab-chip active">Anthropic</span>
+      <span class="lab-chip soon">OpenAI<i>soon</i></span>
+      <span class="lab-chip soon">Google DeepMind<i>soon</i></span>
+    </div>
+  </div>
+
   <main id="top">
     <!-- HERO -->
     <section class="hero">
@@ -51,11 +64,24 @@
       <div class="stat-strip" id="statStrip"></div>
     </section>
 
+    <!-- RESOURCES -->
+    <section id="resources" class="section">
+      <div class="section-head">
+        <div>
+          <span class="kicker">01 — Hub</span>
+          <h2>Resources</h2>
+          <p id="resIntro"></p>
+        </div>
+        <div class="filter-row" id="resFilter"></div>
+      </div>
+      <div class="res-groups" id="resGroups"></div>
+    </section>
+
     <!-- WHAT'S NEW -->
     <section id="whats-new" class="section">
       <div class="section-head">
         <div>
-          <span class="kicker">01 — Releases</span>
+          <span class="kicker">02 — Releases</span>
           <h2>What's New</h2>
           <p>Chronological feed of Anthropic & Claude releases.</p>
         </div>
@@ -68,7 +94,7 @@
     <section id="upcoming" class="section">
       <div class="section-head">
         <div>
-          <span class="kicker">02 — Roadmap</span>
+          <span class="kicker">03 — Roadmap</span>
           <h2>Upcoming Launches</h2>
           <p>Announced and speculative. Speculative items are clearly tagged.</p>
         </div>
@@ -80,7 +106,7 @@
     <section id="compare" class="section">
       <div class="section-head">
         <div>
-          <span class="kicker">03 — Field</span>
+          <span class="kicker">04 — Field</span>
           <h2>Model Comparison</h2>
           <p>Click a column to sort · best value per metric is highlighted · hover a row for notes · click ⌄ for details.</p>
         </div>
@@ -98,7 +124,7 @@
     <section id="charts" class="section">
       <div class="section-head">
         <div>
-          <span class="kicker">04 — Benchmarks</span>
+          <span class="kicker">05 — Benchmarks</span>
           <h2>Benchmark Stats</h2>
           <p id="benchNote"></p>
         </div>
@@ -112,7 +138,7 @@
     <section id="sentiment" class="section">
       <div class="section-head">
         <div>
-          <span class="kicker">05 — Community</span>
+          <span class="kicker">06 — Community</span>
           <h2>Twitter / X Sentiment</h2>
           <p id="sentSub"></p>
         </div>

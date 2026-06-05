@@ -23,7 +23,10 @@ const state = {
   metric: "swe",
   showDelta: false,
   expanded: new Set(),
+  resCat: "all",
 };
+
+const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
 
 /* ---------- theme ---------- */
 function initTheme() {
@@ -56,6 +59,7 @@ async function load() {
   $("#lastUpdated").textContent = `Updated ${fmtDate(data.meta.lastUpdated)}`;
   renderHero(data.latest);
   renderStats(data);
+  renderResources(data.resources);
   renderNewsFilter();
   renderTimeline();
   renderUpcoming(data.upcoming);
@@ -91,6 +95,30 @@ function renderStats(d) {
     { num: `$${cheapest.outPrice}`, lbl: `cheapest output (${cheapest.vendor})` },
   ];
   $("#statStrip").innerHTML = tiles.map((t) => `<div class="stat"><div class="num">${t.num}</div><div class="lbl">${t.lbl}</div></div>`).join("");
+}
+
+/* ---------- resources ---------- */
+function renderResources(res) {
+  if (!res) return;
+  $("#resIntro").textContent = res.intro;
+  const cats = res.categories;
+  const filters = [["all", "All"], ...cats.map((c) => [c.name, c.name])];
+  $("#resFilter").innerHTML = filters.map(([v, l]) => `<button class="fbtn ${state.resCat === v ? "active" : ""}" data-v="${v}">${l}</button>`).join("");
+  $("#resFilter").onclick = (e) => { const b = e.target.closest(".fbtn"); if (!b) return; state.resCat = b.dataset.v; renderResources(res); };
+
+  const shown = cats.filter((c) => state.resCat === "all" || c.name === state.resCat);
+  $("#resGroups").innerHTML = shown.map((c) => `
+    <div class="res-group">
+      <div class="rg-head"><h3>${c.name}</h3><p>${c.desc}</p></div>
+      <div class="res-grid">
+        ${c.items.map((it) => `
+          <a class="res-card" href="${it.url}" target="_blank" rel="noopener">
+            <div class="rc-top"><h4>${it.title}</h4><span class="rc-tag">${it.tag}</span></div>
+            <p>${it.desc}</p>
+            <div class="rc-link">Visit <span class="rc-host">${host(it.url)}</span></div>
+          </a>`).join("")}
+      </div>
+    </div>`).join("");
 }
 
 /* ---------- what's new ---------- */

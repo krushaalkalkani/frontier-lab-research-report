@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-// Best-effort refresher for data/updates.json.
-// Pulls Anthropic's public news page, extracts recent post titles + links,
-// and merges any new items into the timeline. Always bumps meta.lastUpdated.
+// Refresher for data/updates.json.
+// Reads Anthropic's sitemap.xml (reliable static XML), finds new /news/ posts,
+// and pulls each post's title + summary from its OpenGraph meta tags.
+// Merges new items into the timeline and always bumps meta.lastUpdated.
 // Dependency-free (uses Node's global fetch). Run: node scripts/fetch-updates.mjs
 
 import { readFile, writeFile } from "node:fs/promises";
@@ -10,34 +11,59 @@ import { dirname, join } from "node:path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = join(root, "data", "updates.json");
-const NEWS_URL = "https://www.anthropic.com/news";
+const SITEMAP_URL = "https://www.anthropic.com/sitemap.xml";
+const UA = "Mozilla/5.0 (claude-pulse refresher)";
+const MAX_NEW_PER_RUN = 8; // safety cap so one run can't flood the timeline
 
 const today = new Date().toISOString().slice(0, 10);
 
-function classify(title) {
-  const t = title.toLowerCase();
-  if (/(opus|sonnet|haiku|claude \d)/.test(t)) return { type: "model", tags: ["Model"] };
-  if (/(api|code|agent|tool|workflow)/.test(t)) return { type: "feature", tags: ["Feature"] };
+function classify(text) {
+  const t = text.toLowerCase();
+  if (/(opus|sonnet|haiku|claude \d|new model|introducing claude)/.test(t)) return { type: "model", tags: ["Model"] };
+  if (/(api|claude code|agent|tool|workflow|sdk|mcp|feature)/.test(t)) return { type: "feature", tags: ["Feature"] };
+  if (/(research|interpretab|safety|alignment|institute)/.test(t)) return { type: "feature", tags: ["Research"] };
   return { type: "feature", tags: ["News"] };
 }
 
-async function fetchNews() {
-  const res = await fetch(NEWS_URL, {
-    headers: { "user-agent": "Mozilla/5.0 (claude-pulse refresher)" },
-  });
-  if (!res.ok) throw new Error(`news fetch failed: ${res.status}`);
-  const html = await res.text();
+const titleFromSlug = (url) =>
+  url.split("/news/")[1].replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-  // Grab anchors that point at /news/<slug> and have visible text.
-  const items = new Map();
-  const re = /href="(\/news\/[a-z0-9-]+)"[^>]*>([^<]{6,120})</gi;
+// Decode the handful of HTML entities that show up in OG meta tags.
+const decode = (s) =>
+  s.replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, "&")
+   .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim();
+
+// Pull recent /news/ entries from the sitemap, newest first.
+async function fetchSitemapNews() {
+  const res = await fetch(SITEMAP_URL, { headers: { "user-agent": UA } });
+  if (!res.ok) throw new Error(`sitemap fetch failed: ${res.status}`);
+  const xml = await res.text();
+  const entries = [];
+  const re = /<url>\s*<loc>([^<]+)<\/loc>(?:\s*<lastmod>([^<]+)<\/lastmod>)?/g;
   let m;
-  while ((m = re.exec(html))) {
-    const url = "https://www.anthropic.com" + m[1];
-    const title = m[2].replace(/\s+/g, " ").trim();
-    if (title && !items.has(url)) items.set(url, title);
+  while ((m = re.exec(xml))) {
+    const url = m[1].trim();
+    if (!/\/news\/[a-z0-9-]+$/.test(url)) continue; // skip /news/ index + non-posts
+    entries.push({ url, lastmod: m[2] ? m[2].slice(0, 10) : today });
   }
-  return [...items.entries()].slice(0, 12).map(([url, title]) => ({ url, title }));
+  entries.sort((a, b) => (a.lastmod < b.lastmod ? 1 : -1));
+  return entries.slice(0, 30); // consider the 30 most recent
+}
+
+// Read OpenGraph title/description from a post's static HTML.
+async function fetchMeta(url) {
+  try {
+    const res = await fetch(url, { headers: { "user-agent": UA } });
+    if (!res.ok) throw new Error(String(res.status));
+    const html = await res.text();
+    const grab = (p) => (html.match(new RegExp(`<meta property="${p}" content="([^"]*)"`, "i")) || [])[1];
+    const title = decode(grab("og:title") || titleFromSlug(url));
+    const summary = decode(grab("og:description") || "New from Anthropic — see the announcement for details.");
+    const published = (grab("article:published_time") || "").slice(0, 10);
+    return { title, summary, published };
+  } catch {
+    return { title: titleFromSlug(url), summary: "New from Anthropic — see the announcement for details.", published: "" };
+  }
 }
 
 // Classify a tweet with the open keyword lexicon. Transparent + auditable.
@@ -92,22 +118,23 @@ async function main() {
 
   let added = 0;
   try {
-    const news = await fetchNews();
-    for (const n of news) {
-      if (existingUrls.has(n.url)) continue;
-      const { type, tags } = classify(n.title);
+    const entries = await fetchSitemapNews();
+    const fresh = entries.filter((e) => !existingUrls.has(e.url)).slice(0, MAX_NEW_PER_RUN);
+    for (const e of fresh) {
+      const meta = await fetchMeta(e.url);
+      const { type, tags } = classify(`${meta.title} ${meta.summary}`);
       data.timeline.unshift({
-        date: today,
+        date: meta.published || e.lastmod || today,
         type,
-        title: n.title,
-        summary: "New from Anthropic — see the announcement for details.",
+        title: meta.title,
+        summary: meta.summary,
         tags,
-        url: n.url,
+        url: e.url,
       });
-      existingUrls.add(n.url);
+      existingUrls.add(e.url);
       added++;
     }
-    console.log(`Fetched ${news.length} news links, added ${added} new timeline item(s).`);
+    console.log(`Sitemap: scanned ${entries.length} recent posts, added ${added} new timeline item(s).`);
   } catch (err) {
     console.warn(`Refresh warning (kept existing data): ${err.message}`);
   }
