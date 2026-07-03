@@ -147,16 +147,6 @@
     },
     {
       "date": "2026-06-30",
-      "type": "feature",
-      "title": "Claude Science, an AI workbench for scientists",
-      "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
-    },
-    {
-      "date": "2026-06-30",
       "type": "model",
       "title": "Introducing Claude Sonnet 5",
       "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
@@ -164,6 +154,16 @@
         "Model"
       ],
       "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "feature",
+      "title": "Claude Science, an AI workbench for scientists",
+      "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
+      "tags": [
+        "Feature"
+      ],
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
     },
     {
       "date": "2026-06-23",
@@ -188,22 +188,22 @@
     {
       "date": "2026-06-17",
       "type": "feature",
-      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-      "summary": "Anthropic opens Seoul and announces new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployments of Claude.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem"
-    },
-    {
-      "date": "2026-06-17",
-      "type": "feature",
       "title": "Developing nuclear safeguards for AI through public-private partnership",
       "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with 96% accuracy in preliminary testing.",
       "tags": [
         "News"
       ],
       "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership"
+    },
+    {
+      "date": "2026-06-17",
+      "type": "feature",
+      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+      "summary": "Anthropic opens Seoul and announces new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployments of Claude.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem"
     },
     {
       "date": "2026-06-16",
@@ -228,16 +228,6 @@
     {
       "date": "2026-06-12",
       "type": "feature",
-      "title": "Results from first Anthropic Public Record",
-      "summary": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/anthropic-public-record"
-    },
-    {
-      "date": "2026-06-12",
-      "type": "feature",
       "title": "TCS and Anthropic partner to bring Claude to regulated industries",
       "summary": "We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.",
       "tags": [
@@ -246,14 +236,14 @@
       "url": "https://www.anthropic.com/news/tcs-anthropic-partnership"
     },
     {
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "type": "feature",
-      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-      "summary": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
+      "title": "Results from first Anthropic Public Record",
+      "summary": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance"
+      "url": "https://www.anthropic.com/news/anthropic-public-record"
     },
     {
       "date": "2026-06-11",
@@ -264,6 +254,16 @@
         "Model"
       ],
       "url": "https://www.anthropic.com/news/claude-corps"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "feature",
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "summary": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance"
     },
     {
       "date": "2026-06-09",
@@ -278,16 +278,6 @@
     {
       "date": "2026-06-05",
       "type": "feature",
-      "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
-      "summary": "The full text of Chris Olah's remarks on the Pope's encyclical on AI.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical"
-    },
-    {
-      "date": "2026-06-05",
-      "type": "feature",
       "title": "Widening the conversation on frontier AI",
       "summary": "Anthropic is engaging scholars, clergy, and philosophers from diverse traditions to shape Claude’s moral character and ensure powerful AI acts for the global good.",
       "tags": [
@@ -295,6 +285,16 @@
         "Policy"
       ],
       "url": "https://www.anthropic.com/news/widening-conversation-ai"
+    },
+    {
+      "date": "2026-06-05",
+      "type": "feature",
+      "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+      "summary": "The full text of Chris Olah's remarks on the Pope's encyclical on AI.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical"
     },
     {
       "date": "2026-06-03",
