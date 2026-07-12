@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-11",
+    "lastUpdated": "2026-07-12",
     "tagline": "Tracking every Anthropic & Claude launch — and how it stacks up against the field.",
     "sources": [
       {
@@ -138,22 +138,12 @@
     {
       "date": "2026-07-09",
       "type": "feature",
-      "title": "A new way to reflect on how you use Claude",
-      "summary": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/reflect-with-claude"
-    },
-    {
-      "date": "2026-07-09",
-      "type": "feature",
-      "title": "The Long-Term Benefit Trust",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/the-long-term-benefit-trust"
+      "url": "https://www.anthropic.com/news/ben-bernanke"
     },
     {
       "date": "2026-07-09",
@@ -168,42 +158,32 @@
     {
       "date": "2026-07-09",
       "type": "feature",
-      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+      "title": "The Long-Term Benefit Trust",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/ben-bernanke"
+      "url": "https://www.anthropic.com/news/the-long-term-benefit-trust"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "feature",
+      "title": "A new way to reflect on how you use Claude",
+      "summary": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/reflect-with-claude"
     },
     {
       "date": "2026-07-08",
       "type": "feature",
-      "title": "Charting a path to AI accountability",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "title": "Anthropic's core views on AI safety",
+      "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability"
-    },
-    {
-      "date": "2026-07-08",
-      "type": "feature",
-      "title": "Frontier threats red teaming for AI safety",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety"
-    },
-    {
-      "date": "2026-07-08",
-      "type": "feature",
-      "title": "Golden Gate Claude",
-      "summary": "When we turn up the strength of the “Golden Gate Bridge” feature, Claude’s responses begin to focus on the Golden Gate Bridge. For a short time, we’re making this model available for everyone to interact with.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/golden-gate-claude"
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety"
     },
     {
       "date": "2026-07-08",
@@ -218,22 +198,32 @@
     {
       "date": "2026-07-08",
       "type": "feature",
-      "title": "Anthropic's core views on AI safety",
-      "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems.",
+      "title": "Golden Gate Claude",
+      "summary": "When we turn up the strength of the “Golden Gate Bridge” feature, Claude’s responses begin to focus on the Golden Gate Bridge. For a short time, we’re making this model available for everyone to interact with.",
       "tags": [
-        "Research"
+        "Feature"
       ],
-      "url": "https://www.anthropic.com/news/core-views-on-ai-safety"
+      "url": "https://www.anthropic.com/news/golden-gate-claude"
     },
     {
-      "date": "2026-07-06",
+      "date": "2026-07-08",
       "type": "feature",
-      "title": "Building safeguards for Claude",
+      "title": "Frontier threats red teaming for AI safety",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/building-safeguards-for-claude"
+      "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "feature",
+      "title": "Charting a path to AI accountability",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability"
     },
     {
       "date": "2026-07-06",
@@ -246,14 +236,24 @@
       "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity"
     },
     {
+      "date": "2026-07-06",
+      "type": "feature",
+      "title": "Building safeguards for Claude",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/building-safeguards-for-claude"
+    },
+    {
       "date": "2026-07-03",
       "type": "feature",
-      "title": "Announcing Anthropic's Responsible Scaling Policy",
-      "summary": "We’re publishing our Responsible Scaling Policy—a series of technical and organizational protocols that we’re adopting to help us manage the risks of developing increasingly capable AI systems.",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "summary": "What is and isn't blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy"
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
     },
     {
       "date": "2026-07-03",
@@ -268,22 +268,12 @@
     {
       "date": "2026-07-03",
       "type": "feature",
-      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-      "summary": "What is and isn't blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
+      "title": "Announcing Anthropic's Responsible Scaling Policy",
+      "summary": "We’re publishing our Responsible Scaling Policy—a series of technical and organizational protocols that we’re adopting to help us manage the risks of developing increasingly capable AI systems.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
-    },
-    {
-      "date": "2026-07-01",
-      "type": "feature",
-      "title": "Redeploying Claude Fable 5",
-      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+      "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy"
     },
     {
       "date": "2026-07-01",
@@ -296,14 +286,14 @@
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
     },
     {
-      "date": "2026-06-30",
-      "type": "model",
-      "title": "Introducing Claude Sonnet 5",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "date": "2026-07-01",
+      "type": "feature",
+      "title": "Redeploying Claude Fable 5",
+      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
       "tags": [
-        "Model"
+        "News"
       ],
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
       "date": "2026-06-30",
@@ -314,6 +304,16 @@
         "Feature"
       ],
       "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "model",
+      "title": "Introducing Claude Sonnet 5",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
     },
     {
       "date": "2026-06-26",
