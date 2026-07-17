@@ -127,16 +127,6 @@
   "timeline": [
     {
       "date": "2026-07-15",
-      "type": "feature",
-      "title": "Agents for financial services",
-      "summary": "We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/finance-agents"
-    },
-    {
-      "date": "2026-07-15",
       "type": "model",
       "title": "Introducing Claude Tag",
       "summary": "Claude Tag is a new way for teams to work with Claude.",
@@ -146,14 +136,14 @@
       "url": "https://www.anthropic.com/news/introducing-claude-tag"
     },
     {
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "type": "feature",
-      "title": "Anthropic commits $10 million to Canadian AI research",
-      "summary": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.",
+      "title": "Agents for financial services",
+      "summary": "We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.",
       "tags": [
-        "Research"
+        "Feature"
       ],
-      "url": "https://www.anthropic.com/news/canadian-ai-research"
+      "url": "https://www.anthropic.com/news/finance-agents"
     },
     {
       "date": "2026-07-14",
@@ -166,14 +156,24 @@
       "url": "https://www.anthropic.com/news/claude-for-teachers"
     },
     {
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "type": "feature",
-      "title": "Anthropic Sydney office",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "title": "Anthropic commits $10 million to Canadian AI research",
+      "summary": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand"
+      "url": "https://www.anthropic.com/news/canadian-ai-research"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "model",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
     },
     {
       "date": "2026-07-13",
@@ -187,13 +187,13 @@
     },
     {
       "date": "2026-07-13",
-      "type": "model",
-      "title": "Introducing Claude Design by Anthropic Labs",
-      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "type": "feature",
+      "title": "Anthropic Sydney office",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
-        "Model"
+        "Research"
       ],
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand"
     },
     {
       "date": "2026-07-10",
@@ -208,22 +208,12 @@
     {
       "date": "2026-07-09",
       "type": "feature",
-      "title": "A new way to reflect on how you use Claude",
-      "summary": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/reflect-with-claude"
-    },
-    {
-      "date": "2026-07-09",
-      "type": "feature",
-      "title": "The Long-Term Benefit Trust",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/the-long-term-benefit-trust"
+      "url": "https://www.anthropic.com/news/ben-bernanke"
     },
     {
       "date": "2026-07-09",
@@ -238,42 +228,32 @@
     {
       "date": "2026-07-09",
       "type": "feature",
-      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+      "title": "The Long-Term Benefit Trust",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/ben-bernanke"
+      "url": "https://www.anthropic.com/news/the-long-term-benefit-trust"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "feature",
+      "title": "A new way to reflect on how you use Claude",
+      "summary": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/reflect-with-claude"
     },
     {
       "date": "2026-07-08",
       "type": "feature",
-      "title": "Charting a path to AI accountability",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "title": "Anthropic's core views on AI safety",
+      "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability"
-    },
-    {
-      "date": "2026-07-08",
-      "type": "feature",
-      "title": "Frontier threats red teaming for AI safety",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety"
-    },
-    {
-      "date": "2026-07-08",
-      "type": "feature",
-      "title": "Golden Gate Claude",
-      "summary": "When we turn up the strength of the “Golden Gate Bridge” feature, Claude’s responses begin to focus on the Golden Gate Bridge. For a short time, we’re making this model available for everyone to interact with.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/golden-gate-claude"
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety"
     },
     {
       "date": "2026-07-08",
@@ -288,12 +268,32 @@
     {
       "date": "2026-07-08",
       "type": "feature",
-      "title": "Anthropic's core views on AI safety",
-      "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems.",
+      "title": "Golden Gate Claude",
+      "summary": "When we turn up the strength of the “Golden Gate Bridge” feature, Claude’s responses begin to focus on the Golden Gate Bridge. For a short time, we’re making this model available for everyone to interact with.",
+      "tags": [
+        "Feature"
+      ],
+      "url": "https://www.anthropic.com/news/golden-gate-claude"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "feature",
+      "title": "Frontier threats red teaming for AI safety",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/core-views-on-ai-safety"
+      "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "feature",
+      "title": "Charting a path to AI accountability",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability"
     },
     {
       "date": "2026-07-07",
@@ -307,16 +307,6 @@
     },
     {
       "date": "2026-07-06",
-      "type": "feature",
-      "title": "Building safeguards for Claude",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/building-safeguards-for-claude"
-    },
-    {
-      "date": "2026-07-06",
       "type": "model",
       "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities",
       "summary": "The Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
@@ -324,6 +314,16 @@
         "Model"
       ],
       "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "feature",
+      "title": "Building safeguards for Claude",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/building-safeguards-for-claude"
     }
   ],
   "upcoming": [
