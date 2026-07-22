@@ -127,73 +127,23 @@
   "timeline": [
     {
       "date": "2026-07-22",
-      "type": "model",
-      "title": "Introducing Claude Sonnet 5",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "tags": [
-        "Model"
-      ],
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "date": "2026-07-22",
       "type": "feature",
-      "title": "Skills",
-      "summary": "New from Anthropic — see the announcement for details.",
+      "title": "Donating another $20 million to Public First Action",
+      "summary": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/skills"
+      "url": "https://www.anthropic.com/news/donation-public-first-action"
     },
     {
       "date": "2026-07-22",
       "type": "model",
-      "title": "Introducing Claude Sonnet 4.5",
-      "summary": "Claude Sonnet 4.5 is the best coding model in the world, strongest model for building complex agents, and best model at using computers.",
+      "title": "Introducing Claude for Small Business",
+      "summary": "We're launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
       "tags": [
         "Model"
       ],
-      "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
-    },
-    {
-      "date": "2026-07-22",
-      "type": "model",
-      "title": "Introducing Claude Opus 4.8",
-      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
-      "tags": [
-        "Model"
-      ],
-      "url": "https://www.anthropic.com/news/claude-opus-4-8"
-    },
-    {
-      "date": "2026-07-22",
-      "type": "model",
-      "title": "Introducing Claude Opus 4.7",
-      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks.",
-      "tags": [
-        "Model"
-      ],
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
-    },
-    {
-      "date": "2026-07-22",
-      "type": "model",
-      "title": "Claude Opus 4.6",
-      "summary": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
-      "tags": [
-        "Model"
-      ],
-      "url": "https://www.anthropic.com/news/claude-opus-4-6"
-    },
-    {
-      "date": "2026-07-22",
-      "type": "model",
-      "title": "Introducing Claude Opus 4.5",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Model"
-      ],
-      "url": "https://www.anthropic.com/news/claude-opus-4-5"
+      "url": "https://www.anthropic.com/news/claude-for-small-business"
     },
     {
       "date": "2026-07-22",
@@ -208,22 +158,92 @@
     {
       "date": "2026-07-22",
       "type": "model",
-      "title": "Introducing Claude for Small Business",
-      "summary": "We're launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+      "title": "Introducing Claude Opus 4.5",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Model"
       ],
-      "url": "https://www.anthropic.com/news/claude-for-small-business"
+      "url": "https://www.anthropic.com/news/claude-opus-4-5"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "model",
+      "title": "Claude Opus 4.6",
+      "summary": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/claude-opus-4-6"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "model",
+      "title": "Introducing Claude Opus 4.7",
+      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "model",
+      "title": "Introducing Claude Opus 4.8",
+      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/claude-opus-4-8"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "model",
+      "title": "Introducing Claude Sonnet 4.5",
+      "summary": "Claude Sonnet 4.5 is the best coding model in the world, strongest model for building complex agents, and best model at using computers.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
     },
     {
       "date": "2026-07-22",
       "type": "feature",
-      "title": "Donating another $20 million to Public First Action",
-      "summary": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.",
+      "title": "Skills",
+      "summary": "New from Anthropic — see the announcement for details.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/donation-public-first-action"
+      "url": "https://www.anthropic.com/news/skills"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "model",
+      "title": "Introducing Claude Sonnet 5",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "feature",
+      "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+      "summary": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "feature",
+      "title": "The Anthropic Economic Index connector",
+      "summary": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
     },
     {
       "date": "2026-07-21",
@@ -247,16 +267,6 @@
     },
     {
       "date": "2026-07-15",
-      "type": "model",
-      "title": "Introducing Claude Tag",
-      "summary": "Claude Tag is a new way for teams to work with Claude.",
-      "tags": [
-        "Model"
-      ],
-      "url": "https://www.anthropic.com/news/introducing-claude-tag"
-    },
-    {
-      "date": "2026-07-15",
       "type": "feature",
       "title": "Agents for financial services",
       "summary": "We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.",
@@ -266,14 +276,14 @@
       "url": "https://www.anthropic.com/news/finance-agents"
     },
     {
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "type": "model",
-      "title": "Introducing Claude for Teachers",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "title": "Introducing Claude Tag",
+      "summary": "Claude Tag is a new way for teams to work with Claude.",
       "tags": [
         "Model"
       ],
-      "url": "https://www.anthropic.com/news/claude-for-teachers"
+      "url": "https://www.anthropic.com/news/introducing-claude-tag"
     },
     {
       "date": "2026-07-14",
@@ -286,24 +296,14 @@
       "url": "https://www.anthropic.com/news/canadian-ai-research"
     },
     {
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "type": "model",
-      "title": "Introducing Claude Design by Anthropic Labs",
-      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "title": "Introducing Claude for Teachers",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Model"
       ],
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
-    },
-    {
-      "date": "2026-07-13",
-      "type": "feature",
-      "title": "Claude for Creative Work",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/claude-for-creative-work"
+      "url": "https://www.anthropic.com/news/claude-for-teachers"
     },
     {
       "date": "2026-07-13",
@@ -316,14 +316,14 @@
       "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand"
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-07-13",
       "type": "feature",
-      "title": "UST is bringing Claude to physical AI",
+      "title": "Claude for Creative Work",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/ust-claude"
+      "url": "https://www.anthropic.com/news/claude-for-creative-work"
     }
   ],
   "upcoming": [
