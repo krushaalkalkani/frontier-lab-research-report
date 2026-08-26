@@ -128,32 +128,22 @@
     {
       "date": "2026-08-25",
       "type": "feature",
-      "title": "Funding better evaluations of AI’s impact on wellbeing",
-      "summary": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+      "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+      "summary": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/wellbeing-research-grants"
+      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
     },
     {
       "date": "2026-08-25",
       "type": "feature",
-      "title": "Introducing the Anthropic Economic Index",
-      "summary": "Announcement of the new Anthropic Economic Index and description of the new data on AI use in occupations",
+      "title": "The Anthropic Economic Index connector",
+      "summary": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/the-anthropic-economic-index"
-    },
-    {
-      "date": "2026-08-25",
-      "type": "feature",
-      "title": "Launching the Anthropic Economic Futures Programme in the UK and Europe",
-      "summary": "Anthropic's support for economic research comes to the UK and Europe",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/economic-futures-uk-europe"
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
     },
     {
       "date": "2026-08-25",
@@ -168,22 +158,32 @@
     {
       "date": "2026-08-25",
       "type": "feature",
-      "title": "The Anthropic Economic Index connector",
-      "summary": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
+      "title": "Launching the Anthropic Economic Futures Programme in the UK and Europe",
+      "summary": "Anthropic's support for economic research comes to the UK and Europe",
       "tags": [
-        "News"
+        "Research"
       ],
-      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
+      "url": "https://www.anthropic.com/news/economic-futures-uk-europe"
     },
     {
       "date": "2026-08-25",
       "type": "feature",
-      "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
-      "summary": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.",
+      "title": "Introducing the Anthropic Economic Index",
+      "summary": "Announcement of the new Anthropic Economic Index and description of the new data on AI use in occupations",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "feature",
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "summary": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants"
     },
     {
       "date": "2026-08-14",
@@ -238,22 +238,22 @@
     {
       "date": "2026-07-27",
       "type": "feature",
-      "title": "Expanding our partnership with Cognizant | Anthropic",
-      "summary": "Cognizant embeds Claude across its platforms, with 30,000+ associates trained, and becomes a Global Premier Partner in the Claude Partner Network.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/cognizant-anthropic"
-    },
-    {
-      "date": "2026-07-27",
-      "type": "feature",
       "title": "Our position on open-weights models",
       "summary": "Anthropic CEO Dario Amodei on open-weights models",
       "tags": [
         "News"
       ],
       "url": "https://www.anthropic.com/news/position-open-weights-models"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "feature",
+      "title": "Expanding our partnership with Cognizant | Anthropic",
+      "summary": "Cognizant embeds Claude across its platforms, with 30,000+ associates trained, and becomes a Global Premier Partner in the Claude Partner Network.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/cognizant-anthropic"
     },
     {
       "date": "2026-07-24",
@@ -267,6 +267,16 @@
     },
     {
       "date": "2026-07-23",
+      "type": "feature",
+      "title": "[dev] Claude for Creative Work",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/claude-for-creative-work-dev"
+    },
+    {
+      "date": "2026-07-23",
       "type": "model",
       "title": "Introducing Claude Opus 4.5",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
@@ -277,33 +287,23 @@
     },
     {
       "date": "2026-07-23",
-      "type": "feature",
-      "title": "[dev] Claude for Creative Work",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "type": "model",
+      "title": "Introducing Claude Opus 4.7",
+      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks.",
       "tags": [
-        "Research"
+        "Model"
       ],
-      "url": "https://www.anthropic.com/news/claude-for-creative-work-dev"
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
     },
     {
       "date": "2026-07-22",
       "type": "model",
-      "title": "Introducing Claude Sonnet 5",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "title": "Introducing Claude Opus 4.8",
+      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
       "tags": [
         "Model"
       ],
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "date": "2026-07-22",
-      "type": "feature",
-      "title": "Skills",
-      "summary": "New from Anthropic — see the announcement for details.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/skills"
+      "url": "https://www.anthropic.com/news/claude-opus-4-8"
     },
     {
       "date": "2026-07-22",
@@ -317,13 +317,13 @@
     },
     {
       "date": "2026-07-22",
-      "type": "model",
-      "title": "Introducing Claude Opus 4.8",
-      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+      "type": "feature",
+      "title": "Skills",
+      "summary": "New from Anthropic — see the announcement for details.",
       "tags": [
-        "Model"
+        "News"
       ],
-      "url": "https://www.anthropic.com/news/claude-opus-4-8"
+      "url": "https://www.anthropic.com/news/skills"
     }
   ],
   "upcoming": [
