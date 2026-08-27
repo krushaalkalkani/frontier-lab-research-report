@@ -126,114 +126,94 @@
   },
   "timeline": [
     {
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "type": "feature",
-      "title": "Accenture, AWS, and Anthropic collaboration",
-      "summary": "Anthropic, AWS, and Accenture team up to build trusted solutions for enterprises.",
+      "title": "Anthropic partners with Rwandan Government and ALX to bring AI education to hundreds of thousands of learners across Africa",
+      "summary": "Anthropic is announcing a new partnership with the Government of Rwanda and African tech training provider ALX to bring Chidi—a learning companion built on Claude—to hundreds of thousands of learners across Africa.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/accenture-aws-anthropic"
+      "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education"
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "type": "feature",
-      "title": "Anthropic partners with Google Cloud",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/anthropic-partners-with-google-cloud"
-    },
-    {
-      "date": "2026-08-26",
-      "type": "feature",
-      "title": "Challenges in red teaming AI systems",
-      "summary": "In this post we detail insights from a sample of red teaming approaches that we’ve used to test our AI systems. Through this practice, we’ve begun to gather empirical data about the appropriate tool to reach for in a given situation, and the associated benefits and challenges with each approach. We hope this post is helpful for other companies trying to red team their AI systems, policymakers curious about how red teaming works in practice, and organizations that want to red team AI technology.",
+      "title": "Previewing the Model Hardware Standard",
+      "summary": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
       "tags": [
         "Feature"
       ],
-      "url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems"
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
     },
     {
-      "date": "2026-08-26",
-      "type": "feature",
-      "title": "Frontier model security",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "date": "2026-08-27",
+      "type": "model",
+      "title": "Advancing Claude in healthcare and the life sciences",
+      "summary": "Introducing Claude for Healthcare with HIPAA-ready infrastructure, plus expanded Life Sciences tools for clinical trials and regulatory submissions. New connectors to CMS, Medidata, and ClinicalTrials.gov.",
       "tags": [
-        "Research"
+        "Model"
       ],
-      "url": "https://www.anthropic.com/news/frontier-model-security"
+      "url": "https://www.anthropic.com/news/healthcare-life-sciences"
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "type": "feature",
-      "title": "Understanding and addressing AI harms",
-      "summary": "Learn about Anthropic's comprehensive framework for identifying, classifying, and mitigating potential harms from AI systems, ensuring responsible development of advanced AI technology.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms"
-    },
-    {
-      "date": "2026-08-26",
-      "type": "feature",
-      "title": "SKT partnership announcement",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/skt-partnership-announcement"
-    },
-    {
-      "date": "2026-08-26",
-      "type": "feature",
-      "title": "U.S. elections readiness",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/us-elections-readiness"
-    },
-    {
-      "date": "2026-08-26",
-      "type": "feature",
-      "title": "Zoom partnership and investment in Anthropic",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/zoom-partnership-and-investment"
-    },
-    {
-      "date": "2026-08-26",
-      "type": "feature",
-      "title": "Usage Policy update",
-      "summary": "Updates to our Usage Policy that reflect the growing capabilities and evolving usage of our products.",
+      "title": "Anthropic partners with the Gates Foundation",
+      "summary": "Anthropic is partnering with the Gates Foundation to commit $200 million in grant funding, Claude usage credits, and technical support for programs in global health, life sciences, education, and economic mobility over the next four years.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/usage-policy-update"
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "type": "feature",
-      "title": "Claude for Enterprise powers LLNL research",
-      "summary": "Lawrence Livermore National Laboratory expands Claude for Enterprise access to 10,000 scientists, accelerating breakthroughs in energy, and national security research.",
+      "title": "Expanding our support for scientists",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and"
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "feature",
+      "title": "Claude Science, an AI workbench for scientists",
+      "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
+      "tags": [
+        "Feature"
+      ],
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "model",
+      "title": "Introducing Claude for Teachers",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/claude-for-teachers"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "model",
+      "title": "Introducing Claude for Small Business",
+      "summary": "We're launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/claude-for-small-business"
     },
     {
       "date": "2026-08-26",
       "type": "feature",
-      "title": "Detecting and countering malicious uses of Claude",
-      "summary": "Detecting and Countering Malicious Uses of Claude",
+      "title": "Introducing 100K context windows",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
-        "News"
+        "Research"
       ],
-      "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025"
+      "url": "https://www.anthropic.com/news/100k-context-windows"
     },
     {
       "date": "2026-08-26",
@@ -248,82 +228,102 @@
     {
       "date": "2026-08-26",
       "type": "feature",
-      "title": "Introducing 100K context windows",
+      "title": "Detecting and countering malicious uses of Claude",
+      "summary": "Detecting and Countering Malicious Uses of Claude",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "feature",
+      "title": "Claude for Enterprise powers LLNL research",
+      "summary": "Lawrence Livermore National Laboratory expands Claude for Enterprise access to 10,000 scientists, accelerating breakthroughs in energy, and national security research.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "feature",
+      "title": "Usage Policy update",
+      "summary": "Updates to our Usage Policy that reflect the growing capabilities and evolving usage of our products.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/usage-policy-update"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "feature",
+      "title": "Zoom partnership and investment in Anthropic",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/100k-context-windows"
+      "url": "https://www.anthropic.com/news/zoom-partnership-and-investment"
     },
     {
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "type": "feature",
-      "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
-      "summary": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.",
+      "title": "U.S. elections readiness",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
+      "url": "https://www.anthropic.com/news/us-elections-readiness"
     },
     {
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "type": "feature",
-      "title": "The Anthropic Economic Index connector",
-      "summary": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
-    },
-    {
-      "date": "2026-08-25",
-      "type": "model",
-      "title": "Anthropic Economic Index: Insights from Claude 3.7 Sonnet",
-      "summary": "The second update from the Anthropic Economic Index",
-      "tags": [
-        "Model"
-      ],
-      "url": "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7"
-    },
-    {
-      "date": "2026-08-25",
-      "type": "feature",
-      "title": "Launching the Anthropic Economic Futures Programme in the UK and Europe",
-      "summary": "Anthropic's support for economic research comes to the UK and Europe",
+      "title": "SKT partnership announcement",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/economic-futures-uk-europe"
+      "url": "https://www.anthropic.com/news/skt-partnership-announcement"
     },
     {
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "type": "feature",
-      "title": "Introducing the Anthropic Economic Index",
-      "summary": "Announcement of the new Anthropic Economic Index and description of the new data on AI use in occupations",
+      "title": "Understanding and addressing AI harms",
+      "summary": "Learn about Anthropic's comprehensive framework for identifying, classifying, and mitigating potential harms from AI systems, ensuring responsible development of advanced AI technology.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/the-anthropic-economic-index"
+      "url": "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms"
     },
     {
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "type": "feature",
-      "title": "Funding better evaluations of AI’s impact on wellbeing",
-      "summary": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+      "title": "Frontier model security",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/wellbeing-research-grants"
+      "url": "https://www.anthropic.com/news/frontier-model-security"
     },
     {
-      "date": "2026-08-14",
+      "date": "2026-08-26",
       "type": "feature",
-      "title": "How Claude's text watermarking works",
-      "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act. In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
+      "title": "Challenges in red teaming AI systems",
+      "summary": "In this post we detail insights from a sample of red teaming approaches that we’ve used to test our AI systems. Through this practice, we’ve begun to gather empirical data about the appropriate tool to reach for in a given situation, and the associated benefits and challenges with each approach. We hope this post is helpful for other companies trying to red team their AI systems, policymakers curious about how red teaming works in practice, and organizations that want to red team AI technology.",
       "tags": [
-        "News"
+        "Feature"
       ],
-      "url": "https://www.anthropic.com/news/claude-text-watermark"
+      "url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "feature",
+      "title": "Anthropic partners with Google Cloud",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/anthropic-partners-with-google-cloud"
     }
   ],
   "upcoming": [
