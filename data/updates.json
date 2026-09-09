@@ -128,62 +128,12 @@
     {
       "date": "2026-09-09",
       "type": "feature",
-      "title": "UST is bringing Claude to physical AI",
-      "summary": "UST will train 20,000 engineers on Claude and deploy it across semiconductor, automotive, IoT, healthcare, telecom, and banking workflows.",
+      "title": "AI for Science rare disease research grants",
+      "summary": "Researchers can apply for up to $50,000 in Claude credits over six months to study rare genetic diseases as part of Anthropic's AI for Science program.",
       "tags": [
-        "Feature"
+        "Research"
       ],
-      "url": "https://www.anthropic.com/news/ust-claude"
-    },
-    {
-      "date": "2026-09-09",
-      "type": "feature",
-      "title": "Tino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/tino-cuellar"
-    },
-    {
-      "date": "2026-09-09",
-      "type": "feature",
-      "title": "TCS brings Claude to regulated industries",
-      "summary": "TCS will provide Claude to 50,000 employees across 56 countries, build Claude-powered products for regulated industries, and join our partner network.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership"
-    },
-    {
-      "date": "2026-09-09",
-      "type": "feature",
-      "title": "Claude Partner Network Services Track and Partner Hub",
-      "summary": "Two new components of the Claude Partner Network make it easier for enterprises to find the firms that help put Claude into production.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/services-track-partner-hub"
-    },
-    {
-      "date": "2026-09-09",
-      "type": "feature",
-      "title": "Anthropic raises $65B Series H at $965B valuation",
-      "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/series-h"
-    },
-    {
-      "date": "2026-09-09",
-      "type": "feature",
-      "title": "A new way to reflect on how you use Claude",
-      "summary": "A new feature lets you track and visualize how you use Claude, and decide whether that time aligns with your goals.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/reflect-with-claude"
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants"
     },
     {
       "date": "2026-09-09",
@@ -198,22 +148,152 @@
     {
       "date": "2026-09-09",
       "type": "feature",
-      "title": "AI for Science rare disease research grants",
-      "summary": "Researchers can apply for up to $50,000 in Claude credits over six months to study rare genetic diseases as part of Anthropic's AI for Science program.",
+      "title": "A new way to reflect on how you use Claude",
+      "summary": "A new feature lets you track and visualize how you use Claude, and decide whether that time aligns with your goals.",
+      "tags": [
+        "Feature"
+      ],
+      "url": "https://www.anthropic.com/news/reflect-with-claude"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "Anthropic raises $65B Series H at $965B valuation",
+      "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
+      "tags": [
+        "Feature"
+      ],
+      "url": "https://www.anthropic.com/news/series-h"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "Claude Partner Network Services Track and Partner Hub",
+      "summary": "Two new components of the Claude Partner Network make it easier for enterprises to find the firms that help put Claude into production.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/services-track-partner-hub"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "TCS brings Claude to regulated industries",
+      "summary": "TCS will provide Claude to 50,000 employees across 56 countries, build Claude-powered products for regulated industries, and join our partner network.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "Tino Cuéllar joins as Chief Global Affairs Officer",
+      "summary": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/tino-cuellar"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "UST is bringing Claude to physical AI",
+      "summary": "UST will train 20,000 engineers on Claude and deploy it across semiconductor, automotive, IoT, healthcare, telecom, and banking workflows.",
+      "tags": [
+        "Feature"
+      ],
+      "url": "https://www.anthropic.com/news/ust-claude"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "Zoom partnership and investment in Anthropic",
+      "summary": "Zoom will integrate Claude into its Contact Center portfolio, and Zoom Ventures invests in Anthropic.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/zoom-partnership-and-investment"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "Dario Amodei's remarks at the AI Safety Summit",
+      "summary": "Anthropic's CEO presents the Responsible Scaling Policy and its AI Safety Levels framework at the UK AI Safety Summit.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/rare-disease-research-grants"
+      "url": "https://www.anthropic.com/news/uk-ai-safety-summit"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "Anthropic opens Sydney office, names ANZ GM",
+      "summary": "Theo Hourmouzis joins as General Manager for Australia and New Zealand as Anthropic opens its Sydney office and partners with CBA, Canva, and Xero.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "The Long-Term Benefit Trust",
+      "summary": "An independent body of five trustees with authority to elect and remove Anthropic board members, balancing stockholder and public interests.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/the-long-term-benefit-trust"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "SKT partnership announcement",
+      "summary": "SK Telecom invests $100 million in Anthropic and partners to build a telco-tuned version of Claude for customer service, marketing, and sales.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/skt-partnership-announcement"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "model",
+      "title": "Releasing Claude Instant 1.2",
+      "summary": "Claude Instant 1.2 is a faster, lower-cost model with improved math, coding, reasoning, and safety inherited from Claude 2.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "PwC deploys Claude across its business",
+      "summary": "PwC expands its partnership with Anthropic to deploy Claude across its workforce, train 30,000 staff, and launch a joint Center of Excellence.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "Prompting Claude's long context window",
+      "summary": "Two techniques improve Claude's long-document Q&A: extracting relevant quotes first and providing in-context examples.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/prompting-long-context"
     },
     {
       "date": "2026-09-08",
       "type": "feature",
-      "title": "Detecting and countering malicious uses of Claude",
-      "summary": "Detecting and Countering Malicious Uses of Claude",
+      "title": "Detecting and countering misuse of AI: August 2025",
+      "summary": "Anthropic's threat intelligence report on AI cybercrime and other abuses",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025"
+      "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
     },
     {
       "date": "2026-09-08",
@@ -228,12 +308,12 @@
     {
       "date": "2026-09-08",
       "type": "feature",
-      "title": "Detecting and countering misuse of AI: August 2025",
-      "summary": "Anthropic's threat intelligence report on AI cybercrime and other abuses",
+      "title": "Detecting and countering malicious uses of Claude",
+      "summary": "Detecting and Countering Malicious Uses of Claude",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
+      "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025"
     },
     {
       "date": "2026-09-04",
@@ -244,86 +324,6 @@
         "News"
       ],
       "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
-    },
-    {
-      "date": "2026-09-01",
-      "type": "feature",
-      "title": "Developing Enterprise Frontier Safeguards with our customers",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
-    },
-    {
-      "date": "2026-09-01",
-      "type": "feature",
-      "title": "How Claude's text watermarking works",
-      "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act. In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/claude-text-watermark"
-    },
-    {
-      "date": "2026-08-31",
-      "type": "feature",
-      "title": "Improving our alignment and security practices",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts"
-    },
-    {
-      "date": "2026-08-27",
-      "type": "feature",
-      "title": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/anthropic-rwanda-mou"
-    },
-    {
-      "date": "2026-08-27",
-      "type": "feature",
-      "title": "Anthropic and Teach For All launch global AI training initiative for educators",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/anthropic-teach-for-all"
-    },
-    {
-      "date": "2026-08-27",
-      "type": "model",
-      "title": "Introducing Claude Corps",
-      "summary": "Anthropic is launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
-      "tags": [
-        "Model"
-      ],
-      "url": "https://www.anthropic.com/news/claude-corps"
-    },
-    {
-      "date": "2026-08-27",
-      "type": "feature",
-      "title": "Claude for Life Sciences",
-      "summary": "Discover how Claude accelerates life sciences research with new scientific connectors, skills, and improved performance for drug discovery and clinical work.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/claude-for-life-sciences"
-    },
-    {
-      "date": "2026-08-27",
-      "type": "feature",
-      "title": "Anthropic partners with Rwandan Government and ALX to bring AI education to hundreds of thousands of learners across Africa",
-      "summary": "Anthropic is announcing a new partnership with the Government of Rwanda and African tech training provider ALX to bring Chidi—a learning companion built on Claude—to hundreds of thousands of learners across Africa.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education"
     }
   ],
   "upcoming": [
