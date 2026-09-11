@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-10",
+    "lastUpdated": "2026-09-11",
     "tagline": "Tracking every Anthropic & Claude launch — and how it stacks up against the field.",
     "sources": [
       {
@@ -126,64 +126,24 @@
   },
   "timeline": [
     {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Updating sales restrictions for unsupported regions",
-      "summary": "Anthropic is tightening restrictions to bar entities majority-owned by companies headquartered in unsupported regions.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Updates to Consumer Terms and Privacy Policy",
-      "summary": "Claude Free, Pro, and Max users can now opt in to having conversations used to improve models, with a five-year retention period for participants.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
-    },
-    {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "type": "model",
-      "title": "Strengthening safeguards with US CAISI and UK AISI",
-      "summary": "Government red-teamers tested Constitutional Classifiers on Claude Opus 4 and 4.1, uncovering vulnerabilities that strengthened our safeguards.",
+      "title": "Introducing Claude Corps",
+      "summary": "Claude Corps is a national fellowship for early-career people passionate about extending the benefits of AI to communities across America.",
       "tags": [
         "Model"
       ],
-      "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
+      "url": "https://www.anthropic.com/news/claude-corps"
     },
     {
       "date": "2026-09-10",
       "type": "feature",
-      "title": "Dario Amodei on American AI leadership",
-      "summary": "A statement from Anthropic CEO, Dario Amodei, on Anthropic’s commitment to advancing America's leadership in building powerful and beneficial AI",
+      "title": "Anthropic brings AI education to Africa with Rwanda and ALX",
+      "summary": "A Claude-based learning companion reaches Rwandan teachers and 200,000+ ALX students across Africa.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Snowflake and Anthropic announce $200M partnership",
-      "summary": "A multi-year partnership brings Claude to Snowflake's 12,600+ customers to deploy AI agents across regulated industries.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Seoul becomes Anthropic's third APAC office",
-      "summary": "Anthropic will open a Seoul office in early 2026 as APAC run-rate revenue grows over 10x and Korean enterprises adopt Claude.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific"
+      "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education"
     },
     {
       "date": "2026-09-10",
@@ -198,112 +158,142 @@
     {
       "date": "2026-09-10",
       "type": "feature",
-      "title": "Anthropic brings AI education to Africa with Rwanda and ALX",
-      "summary": "A Claude-based learning companion reaches Rwandan teachers and 200,000+ ALX students across Africa.",
+      "title": "Seoul becomes Anthropic's third APAC office",
+      "summary": "Anthropic will open a Seoul office in early 2026 as APAC run-rate revenue grows over 10x and Korean enterprises adopt Claude.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education"
+      "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific"
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "type": "feature",
-      "title": "Partnering with Scale to bring generative AI to enterprises",
-      "summary": "Scale AI customers can build and deploy generative AI applications on Claude with enterprise deployment tooling and data connectors.",
+      "title": "Snowflake and Anthropic announce $200M partnership",
+      "summary": "A multi-year partnership brings Claude to Snowflake's 12,600+ customers to deploy AI agents across regulated industries.",
       "tags": [
         "Feature"
       ],
-      "url": "https://www.anthropic.com/news/partnering-with-scale"
+      "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership"
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "type": "feature",
-      "title": "ServiceNow chooses Claude",
-      "summary": "ServiceNow selects Claude as the default model for its Build Agent and rolls Claude out to 29,000+ employees and engineering teams.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/servicenow-anthropic-claude"
-    },
-    {
-      "date": "2026-09-09",
-      "type": "feature",
-      "title": "Dario Amodei on the Department of War discussions",
-      "summary": "A statement from Anthropic CEO Dario Amodei on our discussions with the Department of War and national security uses of AI.",
+      "title": "Dario Amodei on American AI leadership",
+      "summary": "A statement from Anthropic CEO, Dario Amodei, on Anthropic’s commitment to advancing America's leadership in building powerful and beneficial AI",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/statement-department-of-war"
+      "url": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership"
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
+      "type": "model",
+      "title": "Strengthening safeguards with US CAISI and UK AISI",
+      "summary": "Government red-teamers tested Constitutional Classifiers on Claude Opus 4 and 4.1, uncovering vulnerabilities that strengthened our safeguards.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
+    },
+    {
+      "date": "2026-09-10",
       "type": "feature",
-      "title": "Sydney becomes Anthropic's fourth APAC office",
-      "summary": "Anthropic is opening a Sydney office, its fourth in Asia-Pacific, and plans to expand compute capacity in Australia.",
+      "title": "Updates to Consumer Terms and Privacy Policy",
+      "summary": "Claude Free, Pro, and Max users can now opt in to having conversations used to improve models, with a five-year retention period for participants.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific"
+      "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "type": "feature",
-      "title": "AI for Science rare disease research grants",
-      "summary": "Researchers can apply for up to $50,000 in Claude credits over six months to study rare genetic diseases as part of Anthropic's AI for Science program.",
+      "title": "Updating sales restrictions for unsupported regions",
+      "summary": "Anthropic is tightening restrictions to bar entities majority-owned by companies headquartered in unsupported regions.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Rahul Patil joins as Chief Technology Officer",
+      "summary": "Rahul Patil brings 20+ years of infrastructure experience from Stripe, AWS, Microsoft, and Oracle Cloud to lead engineering at Anthropic.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Protecting the wellbeing of our users",
+      "summary": "New safeguards include a crisis classifier that routes users to 170+ helplines worldwide and models that are far less sycophantic.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/protecting-well-being-of-users"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Measuring political bias in Claude",
+      "summary": "We introduce and open-source an automated evaluation for political even-handedness, testing six models across 1,350 prompt pairs.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/political-even-handedness"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Anthropic opens Tokyo office",
+      "summary": "Anthropic opens its first Asia-Pacific office in Tokyo and signs a Memorandum of Cooperation with the Japan AI Safety Institute.",
       "tags": [
         "Research"
       ],
-      "url": "https://www.anthropic.com/news/rare-disease-research-grants"
+      "url": "https://www.anthropic.com/news/opening-our-tokyo-office"
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "type": "feature",
-      "title": "Redeploying Claude Fable 5",
-      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1, with updated cyber safeguards and a new jailbreak framework.",
+      "title": "New offices in Paris and Munich",
+      "summary": "Anthropic opens offices in Paris and Munich as EMEA becomes its fastest-growing region, with run-rate revenue up 9x in the past year.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+      "url": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Microsoft, NVIDIA, and Anthropic partnerships",
+      "summary": "Anthropic commits $30B to Azure compute as NVIDIA and Microsoft invest up to $15B combined, bringing Claude to all three major clouds.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Maryland partners with Anthropic to serve residents",
+      "summary": "Maryland is deploying Claude across state agencies for benefits applications, document processing, and workforce upskilling.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/maryland-partnership"
     },
     {
       "date": "2026-09-09",
       "type": "feature",
-      "title": "A new way to reflect on how you use Claude",
-      "summary": "A new feature lets you track and visualize how you use Claude, and decide whether that time aligns with your goals.",
+      "title": "UST is bringing Claude to physical AI",
+      "summary": "UST will train 20,000 engineers on Claude and deploy it across semiconductor, automotive, IoT, healthcare, telecom, and banking workflows.",
       "tags": [
         "Feature"
       ],
-      "url": "https://www.anthropic.com/news/reflect-with-claude"
-    },
-    {
-      "date": "2026-09-09",
-      "type": "feature",
-      "title": "Anthropic raises $65B Series H at $965B valuation",
-      "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/series-h"
-    },
-    {
-      "date": "2026-09-09",
-      "type": "feature",
-      "title": "Claude Partner Network Services Track and Partner Hub",
-      "summary": "Two new components of the Claude Partner Network make it easier for enterprises to find the firms that help put Claude into production.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/services-track-partner-hub"
-    },
-    {
-      "date": "2026-09-09",
-      "type": "feature",
-      "title": "TCS brings Claude to regulated industries",
-      "summary": "TCS will provide Claude to 50,000 employees across 56 countries, build Claude-powered products for regulated industries, and join our partner network.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership"
+      "url": "https://www.anthropic.com/news/ust-claude"
     },
     {
       "date": "2026-09-09",
@@ -318,12 +308,22 @@
     {
       "date": "2026-09-09",
       "type": "feature",
-      "title": "UST is bringing Claude to physical AI",
-      "summary": "UST will train 20,000 engineers on Claude and deploy it across semiconductor, automotive, IoT, healthcare, telecom, and banking workflows.",
+      "title": "TCS brings Claude to regulated industries",
+      "summary": "TCS will provide Claude to 50,000 employees across 56 countries, build Claude-powered products for regulated industries, and join our partner network.",
       "tags": [
-        "Feature"
+        "News"
       ],
-      "url": "https://www.anthropic.com/news/ust-claude"
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "feature",
+      "title": "Claude Partner Network Services Track and Partner Hub",
+      "summary": "Two new components of the Claude Partner Network make it easier for enterprises to find the firms that help put Claude into production.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/services-track-partner-hub"
     }
   ],
   "upcoming": [
