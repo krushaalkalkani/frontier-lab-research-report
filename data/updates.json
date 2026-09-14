@@ -138,172 +138,12 @@
     {
       "date": "2026-09-10",
       "type": "feature",
-      "title": "Anthropic expands to India with Bengaluru office",
-      "summary": "Anthropic will open a Bengaluru office in early 2026, its second APAC location, and improve Claude's support for major Indic languages.",
+      "title": "Maryland partners with Anthropic to serve residents",
+      "summary": "Maryland is deploying Claude across state agencies for benefits applications, document processing, and workforce upskilling.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/expanding-global-operations-to-india"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Expanding our use of Google Cloud TPUs",
-      "summary": "Announcing a dramatic increase in Anthropic's compute resources through an expanded partnership with Google Cloud.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Working with the US Department of Energy",
-      "summary": "A multi-year partnership with the DOE's Genesis Mission deploys Claude and custom scientific tools across the 17 national laboratories.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/genesis-mission-partnership"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "National Security and Public Sector Advisory Council",
-      "summary": "Eleven former senators and senior defense, intelligence, and energy officials will help identify high-impact AI applications for US security.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Anthropic brings AI education to Africa with Rwanda and ALX",
-      "summary": "A Claude-based learning companion reaches Rwandan teachers and 200,000+ ALX students across Africa.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Salesforce and Anthropic expand partnership",
-      "summary": "Claude becomes a preferred model in Salesforce's Agentforce for regulated industries.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Seoul becomes Anthropic's third APAC office",
-      "summary": "Anthropic will open a Seoul office in early 2026 as APAC run-rate revenue grows over 10x and Korean enterprises adopt Claude.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Snowflake and Anthropic announce $200M partnership",
-      "summary": "A multi-year partnership brings Claude to Snowflake's 12,600+ customers to deploy AI agents across regulated industries.",
-      "tags": [
-        "Feature"
-      ],
-      "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Dario Amodei on American AI leadership",
-      "summary": "A statement from Anthropic CEO, Dario Amodei, on Anthropic’s commitment to advancing America's leadership in building powerful and beneficial AI",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "model",
-      "title": "Strengthening safeguards with US CAISI and UK AISI",
-      "summary": "Government red-teamers tested Constitutional Classifiers on Claude Opus 4 and 4.1, uncovering vulnerabilities that strengthened our safeguards.",
-      "tags": [
-        "Model"
-      ],
-      "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Updates to Consumer Terms and Privacy Policy",
-      "summary": "Claude Free, Pro, and Max users can now opt in to having conversations used to improve models, with a five-year retention period for participants.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Updating sales restrictions for unsupported regions",
-      "summary": "Anthropic is tightening restrictions to bar entities majority-owned by companies headquartered in unsupported regions.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Rahul Patil joins as Chief Technology Officer",
-      "summary": "Rahul Patil brings 20+ years of infrastructure experience from Stripe, AWS, Microsoft, and Oracle Cloud to lead engineering at Anthropic.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Protecting the wellbeing of our users",
-      "summary": "New safeguards include a crisis classifier that routes users to 170+ helplines worldwide and models that are far less sycophantic.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/protecting-well-being-of-users"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Measuring political bias in Claude",
-      "summary": "We introduce and open-source an automated evaluation for political even-handedness, testing six models across 1,350 prompt pairs.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/political-even-handedness"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "Anthropic opens Tokyo office",
-      "summary": "Anthropic opens its first Asia-Pacific office in Tokyo and signs a Memorandum of Cooperation with the Japan AI Safety Institute.",
-      "tags": [
-        "Research"
-      ],
-      "url": "https://www.anthropic.com/news/opening-our-tokyo-office"
-    },
-    {
-      "date": "2026-09-10",
-      "type": "feature",
-      "title": "New offices in Paris and Munich",
-      "summary": "Anthropic opens offices in Paris and Munich as EMEA becomes its fastest-growing region, with run-rate revenue up 9x in the past year.",
-      "tags": [
-        "News"
-      ],
-      "url": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence"
+      "url": "https://www.anthropic.com/news/maryland-partnership"
     },
     {
       "date": "2026-09-10",
@@ -318,12 +158,172 @@
     {
       "date": "2026-09-10",
       "type": "feature",
-      "title": "Maryland partners with Anthropic to serve residents",
-      "summary": "Maryland is deploying Claude across state agencies for benefits applications, document processing, and workforce upskilling.",
+      "title": "New offices in Paris and Munich",
+      "summary": "Anthropic opens offices in Paris and Munich as EMEA becomes its fastest-growing region, with run-rate revenue up 9x in the past year.",
       "tags": [
         "News"
       ],
-      "url": "https://www.anthropic.com/news/maryland-partnership"
+      "url": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Anthropic opens Tokyo office",
+      "summary": "Anthropic opens its first Asia-Pacific office in Tokyo and signs a Memorandum of Cooperation with the Japan AI Safety Institute.",
+      "tags": [
+        "Research"
+      ],
+      "url": "https://www.anthropic.com/news/opening-our-tokyo-office"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Measuring political bias in Claude",
+      "summary": "We introduce and open-source an automated evaluation for political even-handedness, testing six models across 1,350 prompt pairs.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/political-even-handedness"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Protecting the wellbeing of our users",
+      "summary": "New safeguards include a crisis classifier that routes users to 170+ helplines worldwide and models that are far less sycophantic.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/protecting-well-being-of-users"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Rahul Patil joins as Chief Technology Officer",
+      "summary": "Rahul Patil brings 20+ years of infrastructure experience from Stripe, AWS, Microsoft, and Oracle Cloud to lead engineering at Anthropic.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Updating sales restrictions for unsupported regions",
+      "summary": "Anthropic is tightening restrictions to bar entities majority-owned by companies headquartered in unsupported regions.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Updates to Consumer Terms and Privacy Policy",
+      "summary": "Claude Free, Pro, and Max users can now opt in to having conversations used to improve models, with a five-year retention period for participants.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "model",
+      "title": "Strengthening safeguards with US CAISI and UK AISI",
+      "summary": "Government red-teamers tested Constitutional Classifiers on Claude Opus 4 and 4.1, uncovering vulnerabilities that strengthened our safeguards.",
+      "tags": [
+        "Model"
+      ],
+      "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Dario Amodei on American AI leadership",
+      "summary": "A statement from Anthropic CEO, Dario Amodei, on Anthropic’s commitment to advancing America's leadership in building powerful and beneficial AI",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Snowflake and Anthropic announce $200M partnership",
+      "summary": "A multi-year partnership brings Claude to Snowflake's 12,600+ customers to deploy AI agents across regulated industries.",
+      "tags": [
+        "Feature"
+      ],
+      "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Seoul becomes Anthropic's third APAC office",
+      "summary": "Anthropic will open a Seoul office in early 2026 as APAC run-rate revenue grows over 10x and Korean enterprises adopt Claude.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Salesforce and Anthropic expand partnership",
+      "summary": "Claude becomes a preferred model in Salesforce's Agentforce for regulated industries.",
+      "tags": [
+        "Feature"
+      ],
+      "url": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Anthropic brings AI education to Africa with Rwanda and ALX",
+      "summary": "A Claude-based learning companion reaches Rwandan teachers and 200,000+ ALX students across Africa.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "National Security and Public Sector Advisory Council",
+      "summary": "Eleven former senators and senior defense, intelligence, and energy officials will help identify high-impact AI applications for US security.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Working with the US Department of Energy",
+      "summary": "A multi-year partnership with the DOE's Genesis Mission deploys Claude and custom scientific tools across the 17 national laboratories.",
+      "tags": [
+        "Feature"
+      ],
+      "url": "https://www.anthropic.com/news/genesis-mission-partnership"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Expanding our use of Google Cloud TPUs",
+      "summary": "Announcing a dramatic increase in Anthropic's compute resources through an expanded partnership with Google Cloud.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "title": "Anthropic expands to India with Bengaluru office",
+      "summary": "Anthropic will open a Bengaluru office in early 2026, its second APAC location, and improve Claude's support for major Indic languages.",
+      "tags": [
+        "News"
+      ],
+      "url": "https://www.anthropic.com/news/expanding-global-operations-to-india"
     }
   ],
   "upcoming": [
